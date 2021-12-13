@@ -1,0 +1,27 @@
+{
+  "name": "parquet-lite",
+  "description": "Fully asynchronous, pure JavaScript implementation of the Parquet file format",
+  "main": "parquet.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ironSource/parquetjs",
+  "author": "ironSource <npm@ironsrc.com>",
+  "license": "MIT",
+  "keywords": [
+    "dremel",
+    "parquet"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/OzySky/parquet-lite.git"
+  },
+  "dependencies": {
+    "@bokuweb/zstd-wasm": "^0.0.14",
+    "int53": "^0.2.4",
+    "snappyjs": "^0.6.0",
+    "thrift": "^0.14.1",
+    "varint": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=7.6"
+  }
+}
